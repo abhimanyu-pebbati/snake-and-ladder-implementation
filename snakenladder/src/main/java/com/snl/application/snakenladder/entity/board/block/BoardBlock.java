@@ -8,8 +8,4 @@ import lombok.Getter;
 public abstract class BoardBlock {
 	private final Integer blockValue;
 	private final Integer destinationValue;
-
-	public int enterBlockDestination() {
-		return this.destinationValue;
-	}
 }
