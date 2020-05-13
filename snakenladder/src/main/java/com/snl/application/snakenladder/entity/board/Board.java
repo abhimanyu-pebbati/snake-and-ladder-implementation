@@ -62,7 +62,7 @@ public class Board {
 	private void init() {
 		for (int i = 1; i < this.size; i++)
 			boardBlocks.put(i, new RegularBlock(i));
-		boardBlocks.put(size, new WinnerBlock(size, null));
+		boardBlocks.put(size, new WinnerBlock(size));
 	}
 
 	public BoardBlock getBlockAt(int location) {
